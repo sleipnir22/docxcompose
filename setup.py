@@ -32,6 +32,7 @@ setup(
     include_package_data=True,
     zip_safe=True,
     install_requires=[
+        'importlib-resources >= 1.3',
         'lxml',
         'python-docx >= 0.8.8',
         'setuptools',
